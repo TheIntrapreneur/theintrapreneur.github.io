@@ -4,7 +4,7 @@ title: "The Intrapreneur"
 description: "Disrupt organizations from the inside out."
 logo: 'assets/images/logo-light.png'
 favicon: 'assets/images/logo-dark.png'
-baseurl: /
+baseurl: ""
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -16,7 +16,7 @@ authors:
   editor:
     name: "The Editor"
     display_name: "The Editor"
-    avatar: 'assets/images/Editor.png'
+    avatar: 'assets/images/editor.png'
     email: editor@theintrapreneur.co
     twitter: https://twitter.com/intrapreneurco_
     description: "Working to disrupt and create a better version of companies from within. The world need new companies, adapting is the way to not die."
