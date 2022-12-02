@@ -2,8 +2,8 @@
 name: "The Intrapreneur"
 title: "The Intrapreneur"
 description: "The Intrapreneur Co."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'assets/images/logo-light.png'
+favicon: 'assets/images/logo-light.png'
 baseurl: /
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
@@ -19,7 +19,7 @@ authors:
     avatar: 'assets/images/Editor.png'
     email: editor@theintrapreneur.co
     twitter: https://twitter.com/intrapreneurco_
-    description: "Working to desrupt and create a better version of companies from inside. The world need new companies, adapt is the way to not died."
+    description: "Working to disrupt and create a better version of companies from within. The world need new companies, adapting is the way to not die."
   sal:
     name: Sal
     display_name: Sal
