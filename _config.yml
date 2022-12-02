@@ -13,6 +13,13 @@ permalink: /:title/
 
 # Authors
 authors:
+  editor:
+    name: "The Editor"
+    display_name: "The Editor"
+    avatar: 'assets/images/Editor.png'
+    email: editor@theintrapreneur.co
+    twitter: https://twitter.com/intrapreneurco_
+    description: "Working to desrupt and create a better version of companies from inside. The world need new companies, adapt is the way to not died."
   sal:
     name: Sal
     display_name: Sal
