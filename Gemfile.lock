@@ -30,8 +30,6 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-archives (2.2.1)
-      jekyll (>= 3.6, < 5.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
@@ -72,13 +70,13 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  jekyll-archives
   jekyll-feed
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
-  kramdown
-  rouge
+
+RUBY VERSION
+   ruby 3.1.2p20
 
 BUNDLED WITH
    2.3.26
