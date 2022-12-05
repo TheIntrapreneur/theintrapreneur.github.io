@@ -39,11 +39,13 @@ a:hover {
 }
 
 a {
-	color: #03a87c;
+	/* color: #03a87c; */
+	color: #ea2f65;
 }
 
 a.text-dark:hover {
-	color: #03a87c !important;
+	/* color: #03a87c !important; */
+	color: #ea2f65 !important;
 }
 
 .c-pointer:hover {

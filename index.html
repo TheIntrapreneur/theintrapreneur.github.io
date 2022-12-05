@@ -144,7 +144,8 @@ enabled: true
     <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
     {% for post in site.posts %}
     {% if post.tags contains "sticky" %}
-    <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
+    <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative"
+        style="background-color: #fff0e1 !important;">
         <div class="pl-4 pr-0 h-100 tofront">
             <div class="row justify-content-between">
                 <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
@@ -192,7 +193,7 @@ enabled: true
                 {% if paginator.total_pages > 1 %}
                 <ul class="pagination">
                     {% if paginator.previous_page %}
-                    <li class="page-item"><a class="page-link"
+                    <li class="page-item"><a class="page-link" style="color: #ea2f65"
                             href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;
                             Prev</a></li>
                     {% else %}
@@ -203,20 +204,22 @@ enabled: true
                     {% if page == paginator.page %}
                     <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
                     {% elsif page == 1 %}
-                    <li class="page-item"><a class="page-link" href="{{site.baseurl}}/">{{ page }}</a></li>
+                    <li class="page-item"><a class="page-link" style="color: #ea2f65" href="{{site.baseurl}}/">{{ page
+                            }}</a></li>
                     {% else %}
-                    <li class="page-item"><a class="page-link"
+                    <li class="page-item"><a class="page-link" style="color: #ea2f65"
                             href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{
                             page }}</a></li>
                     {% endif %}
                     {% endfor %}
 
                     {% if paginator.next_page %}
-                    <li class="page-item"><a class="page-link"
+                    <li class="page-item"><a class="page-link" style="color: #ea2f65"
                             href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next
                             &raquo;</a></li>
                     {% else %}
-                    <li class="page-item disabled"><span class="next page-link">&raquo;</span></li>
+                    <li class="page-item disabled"><span class="next page-link">&raquo;</span>
+                    </li>
                     {% endif %}
                 </ul>
                 {% endif %}
