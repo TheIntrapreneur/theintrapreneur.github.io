@@ -5,7 +5,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
 email: 'editor@theintrapreneur.co'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+mailchimp-list: 'https://theintrapreneur.us9.list-manage.com/subscribe/post?u=76280b57efb725c7994bbb584&amp;id=965f8f18c1'
 
 include: ["_pages"]
 permalink: /:title/
