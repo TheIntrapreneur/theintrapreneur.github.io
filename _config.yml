@@ -5,7 +5,8 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
 email: 'editor@theintrapreneur.co'
-mailchimp-list: 'https://theintrapreneur.us9.list-manage.com/subscribe/post?u=76280b57efb725c7994bbb584&amp;id=965f8f18c1'
+# mailchimp-list: 'https://theintrapreneur.us9.list-manage.com/subscribe/post?u=76280b57efb725c7994bbb584&amp;id=965f8f18c1'
+mailerlite-list: 'https://assets.mailerlite.com/jsonp/248919/forms/73798747909260573/subscribe'
 
 include: ["_pages"]
 permalink: /:title/
@@ -19,12 +20,13 @@ plugins:
   
 authors:
     editor:
-      name: Editor
+      name: Lucas Boscaini
       site: https://theintrapreneur.co
-      avatar: assets/images/avatar.png
-      bio: 'Working to disrupt and create a better version of companies from the inside out.'
-      email: editor@theintrapreneur.co
-      twitter: https://twitter.com/intrapreneurco_
+      avatar: assets/images/profile.png
+      bio: '<b>A futurist looking for a place in the present.</b> <br> 15+ years in the technology industry leading the research, discovery, and creation of new technologies and products in R&D for big techs, and running startups as well.'
+      email: contact@theintrapreneur.co
+      twitter: https://twitter.com/lucasboscaini
+      linkedin: https://www.linkedin.com/in/lucasboscaini/
  
 # Defaults
 defaults:

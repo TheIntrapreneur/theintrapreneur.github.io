@@ -2,8 +2,12 @@
 title: "About"
 layout: about
 permalink: "/about"
-image: "/assets/images/logo.png"
+image: "assets/images/logo.png"
 ---
+
+#### Disrupt organizations from the inside out.
+
+Writing here to share what and how he Working to disrupt and create a better version of companies from the inside out.
 
 "{{site.name}}" takes your privacy seriously. To better protect your privacy we provide this privacy policy notice explaining the way your personal information is collected and used.
 
