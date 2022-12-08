@@ -29,17 +29,6 @@
         }
     }
 
-    function changeIcon() {
-        let element = document.getElementById('icon-dark');
-        if (isEnabled()) {
-            element.classList.add("fa-moon");
-            element.classList.remove("fa-sun");
-        } else {
-            element.classList.add("fa-sun");
-            element.classList.remove("fa-moon");
-        }
-    }
-
     function isEnabled() {
         let enabled = localStorage.getItem('dark-mode');
         return enabled === 'true';

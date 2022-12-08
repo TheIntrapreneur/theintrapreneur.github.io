@@ -10,8 +10,11 @@ permalink: "/explore"
       <h1 class="font-weight-bold title h6 text-uppercase mb-4">Explore</h1>
 
       {% for category in site.categories %}
-      <h4 class="font-weight-bold spanborder text-capitalize" id="{{ category[0] | downcase }}"><span>{{ category[0]
-          }}</span></h4>
+      <h4 class="font-weight-bold spanborder text-capitalize" id="{{ category[0] | downcase }}"
+        style="border-bottom: 1px solid rgba(232, 230, 227, 0.59) !important;">
+        <span style="border-bottom: 1px solid rgba(0, 0, 0, 0.44) !important;">{{ category[0]
+          }}</span>
+      </h4>
 
       {% assign pages_list = category[1] %}
       {% for post in pages_list %}

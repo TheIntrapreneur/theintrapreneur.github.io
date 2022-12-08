@@ -19,7 +19,10 @@ permalink: "/authors"
                         class="rounded-circle" height="100" width="100">
                 </div>
             </div>
-            <h4 class="font-weight-bold spanborder"><span>Posts by {{page.title}}</span></h4>
+            <h4 class="font-weight-bold spanborder"
+                style="border-bottom: 1px solid rgba(232, 230, 227, 0.59) !important;">
+                <span style="border-bottom: 1px solid rgba(0, 0, 0, 0.44) !important;">Posts by {{page.title}}</span>
+            </h4>
             {% assign posts = site.posts | where:"author","sal" %}
             {% for post in posts %}
             {% include main-loop-card.html %}
