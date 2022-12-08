@@ -1,0 +1,62 @@
+<a class="dark-mode-button btn">
+    <i id="icon-dark" class="fa fa-moon"></i>
+    <!-- <i id="icon-sun" class="fa fa-sun"></i> -->
+</a>
+<script>
+    document.getElementsByClassName('dark-mode-button')[0].onclick = function () {
+        darkmode();
+    }
+
+    function loadDarkmode() {
+        let enabled = localStorage.getItem('dark-mode');
+
+        if (enabled === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                darkmode();
+            }
+        } else if (isEnabled()) {
+            enable();
+        }
+    }
+
+    function darkmode() {
+        if (!isEnabled()) {
+            localStorage.setItem('dark-mode', 'true');
+            enable();
+        } else {
+            localStorage.setItem('dark-mode', 'false');
+            disable();
+        }
+    }
+
+    function changeIcon() {
+        let element = document.getElementById('icon-dark');
+        if (isEnabled()) {
+            element.classList.add("fa-moon");
+            element.classList.remove("fa-sun");
+        } else {
+            element.classList.add("fa-sun");
+            element.classList.remove("fa-moon");
+        }
+    }
+
+    function isEnabled() {
+        let enabled = localStorage.getItem('dark-mode');
+        return enabled === 'true';
+    }
+
+    function enable() {
+        DarkReader.setFetchMethod(window.fetch);
+        DarkReader.enable();
+        let element = document.getElementById('icon-dark');
+        element.classList.add("fa-sun");
+        element.classList.remove("fa-moon");
+    }
+
+    function disable() {
+        DarkReader.disable();
+        let element = document.getElementById('icon-dark');
+        element.classList.add("fa-moon");
+        element.classList.remove("fa-sun");
+    }
+</script>

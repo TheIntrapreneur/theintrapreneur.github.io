@@ -20,10 +20,10 @@ plugins:
   
 authors:
     editor:
-      name: Lucas Boscaini
+      name: The Editor
       site: https://theintrapreneur.co
       avatar: assets/images/profile.png
-      bio: '<b>A futurist looking for a place in the present.</b> <br> 15+ years in the technology industry leading the research, discovery, and creation of new technologies and products in R&D for big techs, and running startups as well.'
+      bio: '<b>A futurist looking for a place in the present.</b> <br><br>Lucas has 15+ years in the technology industry leading the research, discovery, and creation of new technologies and products in R&D for big techs, and running startups as well.'
       email: contact@theintrapreneur.co
       twitter: https://twitter.com/lucasboscaini
       linkedin: https://www.linkedin.com/in/lucasboscaini/
