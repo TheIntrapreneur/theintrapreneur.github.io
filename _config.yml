@@ -5,6 +5,8 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
 email: 'editor@theintrapreneur.co'
+
+# E-mail subscription service
 # mailchimp-list: 'https://theintrapreneur.us9.list-manage.com/subscribe/post?u=76280b57efb725c7994bbb584&amp;id=965f8f18c1'
 mailerlite-list: 'https://assets.mailerlite.com/jsonp/248919/forms/73798747909260573/subscribe'
 
@@ -12,22 +14,23 @@ include: ["_pages"]
 permalink: /:title/
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  
+
 authors:
     editor:
       name: The Editor
       site: https://theintrapreneur.co
       avatar: assets/images/avatar.png
-      bio: '<b>A futurist looking for a place in the present.</b> <br><br>Lucas is a technologist and has been leading the research, discovery, and creation of new technologies and products in R&D for big techs, and has run startups as well.'
+      about: A futurist discovering the present.
+      bio: Lucas is a technologist and has been leading the research, discovery, and creation of new technologies and products in R&D for big techs, and running startups.
       email: contact@theintrapreneur.co
       twitter: https://twitter.com/lucasboscaini
       linkedin: https://www.linkedin.com/in/lucasboscaini/
- 
+
 # Defaults
 defaults:
 
@@ -37,14 +40,13 @@ defaults:
     values:
       layout: post
       author: editor
-      avatar: /assets/images/avatar.png
-      
+
   # all pages
   - scope:
       path: "_pages"
     values:
       layout: page
-      
+
 # Syntax
 markdown: kramdown
 highlighter: rouge

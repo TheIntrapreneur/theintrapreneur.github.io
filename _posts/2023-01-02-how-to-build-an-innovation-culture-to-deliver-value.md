@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bulding the Innovation Culture & Deliver Value
+title: How to build an innovation culture to deliver value?
 author: editor
 categories:
   - innovation
@@ -10,7 +10,7 @@ tags:
   - featured
 ---
 
-Intrapreneurship is not a common topic discussed by people during their speech about innovation or career choices compared to entrepreneurship, a close sibling. But it has been part of companies and study fields since Gifford and Elizabeth Pinchot coined the term “Intrapreneur” in 1980.
+The most comum question is: how to build an innovation culture in an organization? -- This question leads to many answers that brings other questions, but afterwhile we realize a better question is: how to build an innovation culture to deliver value? -- and that quesions is not simple to answer and and the right takes could really make the difference in the organization.
 
 **TL;DR**
 *The term intrapreneurship was used by Steve Jobs to explain the work of the Macintosh team. The 4 characteristics of intrapreneurship are the need for intrapreneurs, space, resilience, and organizational support. Innovation inside an organization needs intrapreneurship which is not the same as entrepreneurship.*

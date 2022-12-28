@@ -7,17 +7,18 @@ layout: default
     </h3>
     <div class="row">
         <div class="col-md-7">
-            {% if page.image %}
             <div class="row pb-5">
-                <div class="col-lg-5">
-                    <img class="rounded" src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{
-                    site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+                <div class="col-6 d-flex align-items-center justify-content-end">
+                    <div style="width: 200px">
+                        <img class="rounded" src="{{ site.baseurl }}/{{ site.logo }}" alt="About">
+                    </div>
                 </div>
-                <div class="col-lg-5 pt-5">
-                    <h1>Disrupt organizations from the inside out.</h1>
+                <div class="col-6 d-flex align-items-start flex-column">
+                    <span class="h3 mt-auto" style="max-width: 140px">
+                        {{ site.description }}
+                    </span>
                 </div>
             </div>
-            {% endif %}
             {{ content }}
         </div>
         <div class="col-md-5">
@@ -25,14 +26,21 @@ layout: default
                 {% for author in site.authors %}
                 <div class="p-4 border rounded" style="border: 1px solid rgba(232, 230, 227, 0.59) !important;">
                     <div class="row">
-                        <div class="col-lg-3 mb-4 mb-lg-0"><img alt="{{ author[1].name }}"
-                                src="{{site.baseurl}}/{{ author[1].avatar }}" class="rounded-circle" height="80"
-                                width="80"></div>
-                        <div class="col-md-9">
+                        <div class="col-xl-3 d-flex justify-content-center justify-content-xl-start pb-4 pb-md-0">
+                            <img alt="{{ author[1].name }}" src="{{site.baseurl}}/{{ author[1].avatar }}"
+                                class="rounded-circle" height="80" width="80">
+                        </div>
+                        <div class="col-xl-9">
                             <!--<a href="{{site.baseurl}}/authors#{{ author[1].name | slugify }}">-->
-                            <h4 class="text-dark mb-0"> {{ author[1].name }} </h4>
+                            <h4 class="text-dark d-flex justify-content-center justify-content-xl-start pb-0 mb-0">
+                                {{ author[1].name }} </h4>
                             <!-- <small class="d-inline-block mt-1 mb-3 font-weight-normal">(View Posts)</small> -->
-                            <div class="excerpt">{{ author[1].bio }}</div>
+                            <div class="excerpt">
+                                <i class="d-flex justify-content-center justify-content-xl-start pb-3">
+                                    {{ author[1].about }}
+                                </i>
+                                {{ author[1].bio }}
+                            </div>
                             <!--</a>-->
                             <div class="icon-block mt-3 d-flex justify-content-between">
                                 <div>

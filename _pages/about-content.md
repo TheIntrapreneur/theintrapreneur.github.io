@@ -2,7 +2,6 @@
 title: About
 layout: about
 permalink: /about
-image: assets/images/logo.png
 ---
 
 Welcome to The Intrapreneur! Here you will see ideas, experiences, and cases about the mission that every organization has, to reinvent themselves. Innovation is a topic that has been part of organizations at all levels, even with different approaches companies are looking for a way to keep their relevance for people, society, and the market.
